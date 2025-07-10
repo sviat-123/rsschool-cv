@@ -1,0 +1,185 @@
+.contener-center{
+  margin: 20px auto;
+  width: 1024px;
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+.cv{
+  display: flex;
+  font-family: "Cabin", sans-serif;
+}
+.left-colums{
+  width: 42%;
+}  
+.header{
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.cv-icon{
+  margin-bottom: 10px;
+  border-radius: 50%;
+  height: 150px;
+}
+.my-name{
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+.details,
+.links,
+.skills,
+.languages{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: #505050;
+}
+.date{
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.my-github{
+  display: flex;
+  align-items: center;
+}
+.location-city{
+  margin-bottom: 5px;
+}
+.location-country{
+  margin-bottom: 15px;
+}
+.github-icon{
+  width: 26px;
+}
+.rsschool-icon{
+  width: 73px;
+}
+.details-title,
+.links-title,
+.skills-title,
+.languages-title{
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #a49887;
+  margin-bottom: 20px;
+}
+.address-subtitle,
+.phone-subtitle,
+.email-subtitle{
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.location{
+  margin-bottom: 10px;
+}
+
+.phone-number,
+.email-number{
+  display: block;
+  margin-bottom: 15px;
+  color: black;
+  text-decoration: none;
+}
+.links-github,
+.links-linkedin,
+.links-tg{
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.skills-list__item,
+.language-list__item{
+  margin-bottom: 10px;
+}
+.circle{
+  width: 10px;
+  height: 10px;
+  background-color: #000000; 
+  border-radius: 50%;
+  margin-right: 7px;
+}
+.level{
+  display: flex;
+  margin-bottom: 10px;
+}
+.level-html li:nth-child(4),
+.level-html li:nth-child(5){
+  background-color: #e1e1e1; 
+}
+.level-css li:nth-child(3),
+.level-css li:nth-child(4),
+.level-css li:nth-child(5){
+  background-color: #e1e1e1; 
+}
+.level-js li:nth-child(2),
+.level-js li:nth-child(3),
+.level-js li:nth-child(4),
+.level-js li:nth-child(5) {
+  background-color: #e1e1e1; 
+}
+.level-react li:nth-child(2),
+.level-react li:nth-child(3),
+.level-react li:nth-child(4),
+.level-react li:nth-child(5){
+  background-color: #e1e1e1; 
+}
+.level-git li:nth-child(2),
+.level-git li:nth-child(3),
+.level-git li:nth-child(4),
+.level-git li:nth-child(5){
+  background-color: #e1e1e1; 
+}
+.level-figma li:nth-child(5){
+  background-color: #e1e1e1; 
+}
+.level-english li:nth-child(3),
+.level-english li:nth-child(4),
+.level-english li:nth-child(5){
+  background-color: #e1e1e1; 
+}
+.right-column{
+  width: 58%;
+    padding: 40px;
+}
+.profile-title,
+.my-experience-title,
+.education-title,
+.courses-title,
+.code-example-title{
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.5;;
+  color: #a49887;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #777777;
+}
+.location-education-university{
+  display: flex;
+}
+
+.location{
+
+  margin-bottom: 10px;
+  color: black;
+  text-decoration: none;
+}
+.location-icon{
+  display: inline-block;
+  width: 20px;
+}
